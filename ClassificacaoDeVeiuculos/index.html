@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Veículo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- Imagem à esquerda -->
+    <div class="imagem">
+      <img src="CarroDinheiro.png" alt="Imagem de carro">
+    </div>
+
+    <!-- Formulário e resultado à direita -->
+    <div class="formulario">
+      <h2>Katchau Consignados</h2>
+
+      <label for="modelo">Modelo:</label>
+      <input type="text" id="modelo" placeholder="Ex: Corsa"> 
+
+      <label for="ano">Ano:</label>
+      <input type="number" id="ano" placeholder="Ex: 2008">
+
+      <label for="preco">Preço (R$):</label>
+      <input type="number" id="preco" placeholder="Ex: 23.990">
+
+      <button onclick="classificarVeiculo()">Classificar/Caucular Preço</button>
+
+      <div id="resultado"></div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

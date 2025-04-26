@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Notícias</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <!-- Imagem no topo -->
+    <img src="JornalAnsiosoCelular.png" alt="Jornal ansioso lendo notícias" class="top-image">
+
+    <h2>A Não Tão Notícia</h2>
+
+    <!-- Agrupando input e botões em linha -->
+    <div class="form-noticia">
+      <input type="text" id="noticia" placeholder="Digite a notícia">
+      <button onclick="adicionarNoticia()">Adicionar Notícia</button>
+      <button onclick="visualizarNoticias()">Visualizar Notícias</button>
+    </div>
+
+    <p id="quantidade"></p>
+
+    <!-- Área onde as notícias serão exibidas -->
+    <div id="listaNoticias"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

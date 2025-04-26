@@ -1,0 +1,70 @@
+/* Estilos gerais */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #2A7B9B;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+  }
+  
+  /* Título */
+  h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+  }
+  
+  /* Grid dos cards */
+  #user-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    padding: 0 20px;
+  }
+  
+  /* Estilo dos cards */
+  .card {
+    background: #e6ffdb;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  }
+  
+  /* Estilo do nome */
+  .card h2 {
+    margin-top: 10px;
+    font-size: 1.8em;
+    color: #7BB661;
+  }
+  
+  /* Estilo dos detalhes */
+  .card p {
+    margin: 8px 0;
+    font-size: 1em;
+    color: #555;
+  }
+  
+  /* Destaque nos títulos internos */
+  .card p strong {
+    color: #2c3e50;
+  }
+  
+  /* Mensagem de erro */
+  #error-message {
+    text-align: center;
+    color: red;
+    font-size: 1.3em;
+    margin-top: 30px;
+  }
+  
